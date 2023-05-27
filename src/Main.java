@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MediaAlunos mediaAlunos = new MediaAlunos();
+
+
+        mediaAlunos.setContentPane(mediaAlunos.panelMain);
+        mediaAlunos.setVisible(true);
+        mediaAlunos.setSize(300,500);
+
     }
 }
